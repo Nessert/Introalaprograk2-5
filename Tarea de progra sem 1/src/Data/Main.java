@@ -9,8 +9,8 @@ public class Main {
         String Nombre = "";
         Nombre = JOptionPane.showInputDialog("Ingrese su nombre");
 
-        String Salario = "";
-        Salario = JOptionPane.showInputDialog("Digite su salario");
+        int Salario = 0;
+        Salario = Integer.parseInt(JOptionPane.showInputDialog("Digite su salario"));
 
         float Deduccion = 9.34F;
         float Valordeduccion = Salario * Deduccion/100;
